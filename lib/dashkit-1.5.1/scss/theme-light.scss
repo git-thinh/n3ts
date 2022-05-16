@@ -1,0 +1,33 @@
+/**
+ * Dashkit
+ *
+ * Custom variables followed by Dashkit variables followed by Bootstrap variables
+ * to ensure cascade of styles.
+ */
+
+// Other Libs
+@import '../../alertify.min.scss';
+@import '../../alertifyjs.bootstrap.min.scss';
+@import '../../dropzone.min.scss';
+@import '../../feather/feather.scss';
+//-----------------------------------------------------
+
+// Bootstrap functions
+@import '../../bootstrap-4.6.1/scss/functions';
+
+// Custom variables
+@import 'user-variables';
+
+// Dashkit variables
+@import 'dashkit/variables';
+
+// Bootstrap core
+@import '../../bootstrap-4.6.1/scss/bootstrap';
+
+// Dashkit core
+@import 'dashkit/dashkit';
+
+// Custom core
+@import 'user';
+@import 'custom';
+

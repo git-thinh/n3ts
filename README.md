@@ -1,7 +1,7 @@
 
 
-yarn install
-yarn add @nuxt/ui
+- yarn install
+- yarn add cookie-universal-nuxt
 
 
 

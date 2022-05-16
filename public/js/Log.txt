@@ -1,0 +1,17 @@
+undefined - Type: *
+
+
+[1] all.min.js: 
+	> OK:	  ./lib/jquery.slim.min.js
+	> OK:	  ./lib/bootstrap-4.6.1/popper.min.js
+	> OK:	  ./lib/bootstrap-4.6.1/bootstrap.min.js
+	> OK:	  ./lib/alertify.min.js
+	> OK_MIN: ./lib/alertify.custom.js
+	> OK:	  ./lib/dropzone.min.js
+	> OK:	  ./lib/axios.min.js
+	> OK:	  ./lib/axios-mock-adapter.min.js
+
+	====> COPY: 
+	====> DONE: ./static/js/all.min.js
+
+-----------------------

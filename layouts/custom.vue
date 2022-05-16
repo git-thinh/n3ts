@@ -1,4 +1,4 @@
-﻿<template>
+<template>
     <h3>This is [layout/custom.vue]</h3>
     <div>
         <strong>Custom layout</strong>
@@ -13,7 +13,7 @@
 <script>
     export default {
         created() {
-            console.log('layout created')
+            console.log('layout custom created')
         }
     }
 </script>

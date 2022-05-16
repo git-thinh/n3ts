@@ -1,0 +1,21 @@
+{
+	"MinifyPathOutput": "./static/js/",
+	"MinifyPathOutputCopy": "",
+	"items": [{
+		"outputFileName": "all.min.js",
+		"inputFiles": [
+			"./lib/jquery.slim.min.js",
+			"./lib/bootstrap-4.6.1/popper.min.js",
+			"./lib/bootstrap-4.6.1/bootstrap.min.js",
+
+			"./lib/alertify.min.js",
+			"./lib/alertify.custom.js",
+			"./lib/dropzone.min.js",
+
+			"./lib/axios.min.js",
+			"./lib/axios-mock-adapter.min.js"
+		],
+		"minify": true,
+		"types": ["*"]
+	}]
+}
